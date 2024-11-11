@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+section{
+    height: 400px;
+    width: 800px;
+    border: 2px solid rgb(87, 83, 83);
+    box-shadow: 50px;
+    
+}
+section input{
+    font-size: 25px;
+    font-weight: bolder;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-bottom: 2px solid rgb(11, 11, 11);
+    margin-left: 20px;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+ #genotp{
+    height: 60px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
+    margin-left: 330px;
+    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(194, 8, 8);
+}
+#genotp:hover{
+    background-color: black;
+    
+}
